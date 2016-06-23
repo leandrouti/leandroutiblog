@@ -1,0 +1,178 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #e6e6e6  url("../image/bg_gradient.png") repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:1.5;
+}
+
+#container{
+	width: 1000px;
+	margin: auto;
+}
+
+#lang{
+	clear: both;
+	margin: auto;
+	text-align: right;
+}
+
+/* Header title */
+#title
+{
+	height: 200px;
+	text-align: center;
+
+}
+
+#logo{
+	float: left;
+}
+
+/* Navigation menu Style */
+
+nav{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul{
+	height: 42px;
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	background: #024a68;
+}
+
+nav ul li{
+	float: left;
+	border-right: 1px solid #006699;
+	display:block;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	color: #63afd0;
+	padding: 0 25px;
+	-webkit-transition: color 1s, background-color 1s;
+	-moz-transition: color 1s, background-color 1s;
+}
+
+nav .last{
+	border-right: 0;
+}
+
+.selected, nav ul li a:hover{
+	background-color: #3ba3d0;
+	border-bottom: 2px solid #000;
+	color: #024a68;
+}
+
+nav ul li:nth-child(1) a:hover{
+	background-color: #3ba3d0;
+	border-bottom: 2px solid #000;
+	color: #024a68;
+}
+
+
+/* Content Div Styling */
+#content{
+	padding: 20px;
+	float: left;
+	width: 70%;
+	background-color: #fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	margin-top:20px;
+	min-height: 700px;
+}
+
+#content .content_title{
+	color: #024a68;
+}
+
+
+/* Content and article style */
+article{
+	border-bottom:dotted 1px #3ba3d0;
+	margin-bottom: 30px;
+}
+
+article h2{
+	border-left: solid 4px #006699;
+	border-bottom: solid 2px #006699;
+	padding-left: 2px;
+	text-shadow: 1px 1px 2px #666;
+	color: #024a68;
+}
+
+article .continue_read{
+	text-align:right;
+	margin-right: 2em;
+}
+
+article .date{
+	text-align:right;
+}
+
+article.post_body{
+	border-bottom: none;
+}
+
+article.post_body p{
+	padding-left: 1em;
+}
+
+img.thumb{
+	margin: 0.3em;
+}
+
+/*Side bar Twitter widget */
+div.side_bar{
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+/* Footer */
+footer, #footer{
+	clear: both;
+	padding: 10px 0;
+}
+
+#online_contact{
+	width: 50%;
+	float: left;
+}
+
+#social_network{
+	width: 50%;
+	float:right;
+}
+
+.contact_form{
+	width: 100%;
+}
+.contact_form .textarea_msg{
+	width: 80%;
+	height: 100px;
+}
+.contact_form .input_mail{
+	width: 200px;
+}
+
+div #about_sns ul{
+	list-style: none;
+}
+
+div #about_sns li{
+	padding: 0.5em;
+}
+
+div #about_sns li img{
+	margin-right: 1em;
+}
